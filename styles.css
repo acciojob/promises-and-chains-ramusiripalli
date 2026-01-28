@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 6px;
+      box-shadow: 0 10px 10px rgba(100,100,0,1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      font-size: 16px;
+	  border-radius:10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: red;
+    }
